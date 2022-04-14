@@ -28,6 +28,10 @@ export class Users{
         return faker.address.nearbyGPSCoordinate().join(', ')
     }
 
+    static Following(){
+        return []
+    }
+
     // static RefFollowing(){
     //     return [
     //         {id: Artists.id, parent_type: Artists, data: {profile_picture: Artists.ProfilePicture, name: Artists.Name}}, 

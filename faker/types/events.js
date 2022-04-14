@@ -35,11 +35,11 @@ export class Events{
 
     static ArtistsData(){
         return [
-            {
+            // {
                 // id: Artists.Id,
                 // profile_picture: Artists.ProfilePicture,
                 // name: Artists.Name
-            }
+            // }
         ]
     }
 

@@ -10,7 +10,7 @@ export default function(){
             return !(v == 'prototype' || v == 'length' || v == 'name' || v == 'Id')
         })
     
-        const len = Math.round(Math.random() * 6) + 1
+        const len = 10 + Math.round(Math.random() * 15)
         const data = []
         for(let i = 0; i < len; i++){
             const datum = fields.reduce((acc, field) => {
